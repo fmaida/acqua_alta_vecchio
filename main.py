@@ -1,6 +1,5 @@
 import sys
-#from acquaalta import clsAcquaAlta
-from acquaalta import clsAcquaAlta
+from acquaalta.clsAcquaAlta import clsAcquaAlta
 
 if (__name__ == "__main__"):
 	objAcqua = clsAcquaAlta()
@@ -8,5 +7,5 @@ if (__name__ == "__main__"):
 	if (cPrevisione != ""): print(cPrevisione)
 	#cPrevisione = objAcqua.getPrevisioneDomani()
 	#if (cPrevisione != ""): print("\n" + cPrevisione)
-	print("\n\n")    
+	print
 	print(objAcqua)

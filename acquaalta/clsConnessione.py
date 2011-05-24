@@ -5,7 +5,7 @@ import urllib2
 import string
 import datetime
 import time
-from strutturadati import clsMarea
+from clsMarea import clsMarea
 
 class clsConnessione(object):
 	
